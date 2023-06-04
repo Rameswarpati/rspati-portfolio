@@ -1,1 +1,0 @@
-# rspati-portfolio

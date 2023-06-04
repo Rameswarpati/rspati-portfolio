@@ -1,12 +1,17 @@
+function toggleNav() {
+  var navbar = document.getElementById("navbar");
 
-function openNav() {
-    document.getElementById("navbar").classList.add("active");
+  if (navbar.classList.contains("active")) {
+    navbar.classList.remove("active");
+  } else {
+    navbar.classList.add("active");
   }
-  
-  function closeNav() {
-    document.getElementById("navbar").classList.remove("active");
-  }
-  
+}
+
+  // function closeNav() {
+  //   document.getElementById("navbar").classList.remove("active");
+  // }
+ 
 
 // const menuIcons = document.querySelectorAll('#menu-icons');
 // const navbar = document.querySelectorAll('.navbar');
